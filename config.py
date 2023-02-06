@@ -13,10 +13,10 @@ API_HASH = getenv("API_HASH", "fabcd39698417f8441d5f94e7a1848cc")
 BOT_TOKEN = getenv("BOT_TOKEN", "5686841133:AAHLqXIc6nNbS5P_yrB_k8DA5tP5CDoFTEU")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://abhimusicbot:abhimusicbot@cluster0.d0qhhgg.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001867764564"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🦋 ⃞🐰❥𝐌𝐓𝐕 𝐁𝐄𝐀𝐓𝐒🐼⃟͢❈▸͟͞")
 
-OWNER_ID = list(map(int, getenv("OWNER_ID", "").split()))
+OWNER_ID = list(map(int, getenv("OWNER_ID", "6048717884").split()))
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
@@ -25,8 +25,8 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/AnonymousX1025/AnonX
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/FallenAssociation")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/DevilsHeavenMF")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/KRISTY_AF")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/KRISTY_MF")
 
 SUPPORT_HEHE = SUPPORT_GROUP.split("me/")[1]
 
