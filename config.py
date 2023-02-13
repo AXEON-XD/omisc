@@ -13,7 +13,7 @@ API_HASH = getenv("API_HASH", "fabcd39698417f8441d5f94e7a1848cc")
 BOT_TOKEN = getenv("BOT_TOKEN", "5736198893:AAH03SomGPxTmFr8aMh763s4SxuarG0sb3c")
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://abhimusicbot:abhimusicbot@cluster0.d0qhhgg.mongodb.net/?retryWrites=true&w=majority")
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "5736198893:AAH03SomGPxTmFr8aMh763s4SxuarG0sb3c5736198893:AAH03SomGPxTmFr8aMh763s4SxuarG0sb3c"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001660999801"))
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "🦋 ⃞🐰❥𝑅𝑂𝑀𝐸𝑂 𝐴𝑆𝑆𝐼𝑆𝑇𝐴𝑁𝑇🐼⃟͢❈▸͟͞ ")
 
 OWNER_ID = list(map(int, getenv("OWNER_ID", "6048717884").split()))
